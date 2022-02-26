@@ -1,0 +1,309 @@
+.sub-container{
+    min-height: 100vh;
+    width: 100%;
+    background: url("../images/simple.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+.nav{
+    display:flex;
+    padding-top:30px;
+}
+    
+.nav li{
+    color:white;
+    list-style-type: none;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+.nav span{
+    color:red;
+    font-size: 30px;
+}
+.nav ul{
+    display: flex;
+}
+#log-in{
+ border-radius: 15px;
+ border: 1px solid white;
+ color: white;
+ margin-left: 30%;
+ padding: 10px 20px;
+}
+.sub-container h1{
+    color:white;
+    font-size: 50px;
+}
+.sub-container h3{
+    color:white;
+    font-style: italic;
+    font-size: 28px;
+    margin-top: 45px;
+}
+.text button {
+       color: white;
+        border: 1px solid white;
+        background-color: red;
+        border-radius: 28px;
+        padding: 10px 59px 10px 64px;
+        margin-bottom: 10px;
+        margin-top: 45px;
+}
+.sub-container .text{
+    text-align: center;
+    margin: 14%;
+}
+.themes{
+    text-align: center;
+    margin-top: 8%;
+}
+.themes .text h2{
+        color: #444;
+        letter-spacing: 1.7px;
+        font-size: 30px;
+        letter-spacing: 1.7px;
+        font-weight: bold;
+        margin-bottom: 10px;
+}
+.themes .text p{
+    margin-top:50px;
+    margin-bottom: 90px;
+    color: gray;
+}
+
+.themes hr {
+    width: 70px;
+    height: 3px;
+    background-color: #bb1600;
+    margin: 10px auto;
+}
+
+.profile-bg{
+    background-color: #F6F7F9;
+    margin-top: 10%;
+}
+.profile-bg h2{
+    letter-spacing: 1.7px;
+    font-size: 30px;
+    letter-spacing: 1.7px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 70px;
+    color: #444;
+}
+.profile-bg hr {
+    width: 70px;
+    height: 3px;
+    background-color: #bb1600;
+    margin: 10px auto;
+
+}
+.profile{
+    padding-top: 70px;
+    display: flex;
+}
+.profile img{
+    margin-top: 66px;
+    margin-left: 41px;
+    width: 600px;
+}
+.profile p{
+    width: 340px;
+    margin-left: 110px;
+}
+ button {
+    color: white;
+     border: 1px solid white;
+     background-color: red;
+     border-radius: 28px;
+     padding: 10px 59px 10px 64px;
+     margin-bottom: 10px;
+     margin-left: 55%;
+}
+.blog{
+    padding-top: 20px;
+    display: flex;
+}
+.mobile h1{
+    font-size: 33px;
+    margin-left: 12%;
+    color: #444;
+}
+.mobile h2{
+
+    margin-left: 12%;
+    font-size: 35px;
+    letter-spacing: 1.7px;
+    font-weight: 100;
+    color: #444;
+}
+
+.mobile hr {
+    width: 70px;
+    height: 3px;
+    background-color: #bb1600;
+    margin: 10px auto;
+    margin-left: 35%;
+
+}
+.mobile{
+    padding-top: 80px;
+}
+ .blog div p{
+    width: 370px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #383838;
+    text-align: right;
+    margin-left: 42%;
+}
+
+.mobile .blog img{
+    width: 644px;
+    max-width: 106%;
+    margin-left: 20%;
+    max-height: 183vh;
+}
+ .blog div button {
+    color: white;
+     border: 1px solid white;
+     background-color: red;
+     border-radius: 28px;
+     padding: 10px 59px 10px 64px;
+     margin-bottom: 10px;
+     margin-top: 20px;
+    width: 210px;
+}
+.features{
+    background-color: #F6F7F9;
+    
+}
+.features h2{
+text-align: center;
+letter-spacing: 1.5px;
+font-size: 35px;
+color:#444;
+padding-top: 73px;
+}
+.features hr{
+    width: 70px;
+    height: 3px;
+    background-color: #bb1600;
+    margin: 10px auto;
+    margin-left: 47%;
+}
+.features p{
+    margin-left: -11px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.optimised img{
+    width:100px;
+}
+
+.stunning img{
+    width:80px;
+}
+.step img{
+    width:80px;
+}
+.customer img{
+    width:85px;
+}
+.details h3{
+    margin-top: 10px;
+    color: #444;
+    margin-top: 17px;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    width: 200px;
+}
+.details p{
+    width: 200px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #383838;
+}
+.features button{
+    color: white;
+     border: 1px solid white;
+     background-color: red;
+     border-radius: 28px;
+     padding: 10px 59px 10px 64px;
+     margin-bottom: 10px;
+     margin-top: 20px;
+    width: 210px;
+    margin-left: 44%;
+    margin-top: 29px;
+}
+.footer{
+background-color: #333;
+color: white;
+display: flex;
+margin-top: 103px;
+justify-content: space-evenly;
+}
+ .footer .simplesite {
+    width:160px;
+}
+.footer hr{
+    width: 70px;
+    height: 3px;
+    background-color: #bb1600;
+    margin: 10px auto;
+    margin-left: 3%;
+    border: none;
+}
+.footer h3{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-top: 42px;
+}
+.footer .simplesite p
+{
+width: 270px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+    padding-top: 30px
+}
+ .product li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 17px;
+    
+}
+.company li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.community li{
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.simplesite img{
+    padding-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 15px;
+}
+.product ul{
+    padding-top: 17px;
+}
+.company ul{
+    padding-top: 17px;
+}
+.community ul{
+    padding-top: 17px;
+}
